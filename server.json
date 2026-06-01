@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.EleeBo/helm-assistant-mcp",
+  "title": "Helm MCP",
+  "description": "Give your AI assistant access to real Helm chart data. No more hallucinated values.yaml files.",
+  "repository": {
+    "url": "https://github.com/EleeBo/helm-assistant-mcp",
+    "source": "github"
+  },
+  "version": "0.1.5",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://helm-assistant-mcp.EleeBo.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "oci",
+      "identifier": "ghcr.io/EleeBo/mcp-helm:v0.1.5@sha256:f03884d5c3df10fc6228d39021279fcc6b86c31352df13387943f289864a2231",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

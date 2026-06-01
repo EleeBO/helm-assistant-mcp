@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "github>EleeBo/renovate-config",
+    "github>EleeBo/renovate-config:automerge-github-actions"
+  ]
+}
